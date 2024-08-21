@@ -53,6 +53,12 @@ body {
     padding: var(--spacing-300);
     border-radius: var(--border-radius);
     margin-bottom: var(--spacing-200);
+    max-width: 100%; 
+    width: 250px; 
+    height: 250px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
@@ -82,7 +88,10 @@ body {
     }
 
     .qr-box {
-        padding: var(--spacing-200);
+        .qr-box {
+            width: 200px; 
+            height: 200px; 
+        }
     }
 
     .title {
